@@ -1,0 +1,125 @@
+*{
+    color: white;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+a {
+    color: black;
+}
+br {
+    margin: 0.2em;
+    display: block;
+}
+/* all text white */
+body,h1,h2,h3,p,a,button {
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.wrap {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #fafafa; */
+    overflow: hidden;
+}
+#logo{
+    color: white;
+    text-align: center;
+}
+.account-form{
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid #999999;
+    padding: 2rem;
+    background: rgb(37,40,42);
+}
+.form-input{
+    /* background: #fafafa; */
+    border: 1px solid #999999;
+    padding: 12px;
+    width: 100%;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-button{
+    background: #313131;
+    border: 1px solid #999999;
+    /* color: #ffffff; */
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+}
+.form-button:hover{
+    background: grey;
+    cursor:pointer;
+}
+.form-header{
+    text-align: center;
+    margin-bottom : 2rem;
+}
+.form-footer{
+    text-align: center;
+}
+
+form {
+    /* background-color: grey; */
+    width: 500px;
+    background-color: rgb(30, 32, 33);
+    border: #999999;
+}
+
+a {
+    /* color: black; */
+    text-decoration: none;
+}
+a:visited {
+    /* color: white;    */
+    text-decoration: none;
+}
+
+.header-wrapper {
+    display: flex;  
+    background-color: rgb(30, 32, 33);
+    /* flex-flow: nowrap; */
+    font-weight: bold;
+    text-align: center; 
+    padding: 1.5em;
+    color: white;
+    align-items: center;
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
+input {
+    border: 0;
+    background-color: rgb(50,53,55);
+    
+    /* border-radius: 52px; */
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+    /* color: white; */
+    padding-right: 40em;
+    border-color: 0;
+    /* color: white; */
+    font-size: 1em;
+}
+body {
+    background-color: rgb(19,21,22);
+}

@@ -1,0 +1,234 @@
+#logo {
+    order: 1;
+}
+#search {
+    border: 0;
+    background-color: rgb(50,53,55);
+    padding: 1em;
+    border-radius: 5em;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+    width: max-content;
+}
+
+#search input {
+    border: 0;
+    background-color: rgb(50,53,55);
+    
+    /* border-radius: 52px; */
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+    color: white;
+    padding-right: 40em;
+    border-color: 0;
+    color: white;
+    font-size: 1em;
+}
+
+#createAccount {
+    margin-left: auto;
+    margin-right: 1em;
+    order: 3;
+}
+.button {
+    border: 0;
+    background-color: rgb(50,53,55);
+    padding: 1em;
+    border-radius: 52px;
+}
+.button:hover {
+    background-color: rgb(30, 32, 33);
+}
+#login {
+    order: 4;
+}
+#preferences {
+    order: 5;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;   
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+header {
+    padding-bottom: 1.5em;
+}
+
+.header-wrapper {
+    display: flex;  
+    background-color: rgb(30, 32, 33);
+    /* flex-flow: nowrap; */
+    font-weight: bold;
+    text-align: center; 
+    padding: 1.5em;
+    color: white;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(19,21,22);
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    /* max-width: 1200px; */
+    color: white;
+}
+.left-container{
+    width: 80%;
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 2em;  
+    border-radius: 1em;
+    -webkit-margin-collapse: collapse;
+}
+.right-container{
+    width: 20%;
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+    -webkit-margin-collapse: collapse;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    color: white;
+    margin: 1em;
+}
+
+#spacer {
+    border: 0;
+    padding: 1em;
+    border-radius: 5em;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+    width: max-content;
+}
+
+.product {
+    border: 0;
+    background-color: rgb(50,53,55);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    order: 2;
+
+}
+
+.product:hover {
+    background-color: rgb(30, 32, 33);
+}
+
+.category-container {
+    background-color: rgb(37,40,42);
+    /* horizontal display */
+    display: flex;
+    flex-direction: row;
+}
+
+
+.category{
+    background-color: rgb(50,53,55);
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+}
+
+.category:hover {
+    background-color: rgb(30, 32, 33);
+}
+.container{
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+/* class comments container */
+.comments-container{
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+/* class price-history-chart */
+#priceHistoryChart{
+    background-color: rgb(37,40,42);
+    max-height: 20rem;
+    width: 100%;
+}
+
+
+/* all input with class category */
+input.category{
+    background-color: rgb(50,53,55);
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 1em;
+    color: white;
+    border-color: none;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+input.category:hover {
+    background-color: rgb(30, 32, 33);
+    cursor: pointer;
+}
+
+.breadcrumb {
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.preferences {
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.change-password {
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+.admin-options  {
+    background-color: rgb(37,40,42);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
